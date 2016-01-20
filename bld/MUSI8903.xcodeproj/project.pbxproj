@@ -1,0 +1,1208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5CB0F7C32847412483C016DE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DEA7A336BCDD40DA8303BF0A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				221EDCC25E634065A134DAEF /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F83D26AEB03E456B931A386F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CE9DFACAF3E44CF89DD4E5CA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				76E35D874ADF4EE1B6B9E552 /* CMake Rules */,
+			);
+			dependencies = (
+				7C5883D1574F495497D91BD9 /* PBXTargetDependency */,
+				C1F9FE94E73D41EDB7BF1ED6 /* PBXTargetDependency */,
+				DB486E1A29634737802B1126 /* PBXTargetDependency */,
+				A5342D4633504A6FB055EAD9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0232B64F87E1439A9C13DCC6 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/xen.c */ = {isa = PBXBuildFile; fileRef = 58440A84CF8346F1B6AD58B6 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/xen.c */; settings = {COMPILER_FLAGS = ""; }; };
+		0F4DB4E8CECF4D46A2BACA1C /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc/Vector.h */ = {isa = PBXBuildFile; fileRef = 9E4047983BB84AAE8014685D /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc/Vector.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1DAE158670204D35A23FD9F0 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B128A666828C44939A8CCB61 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		2302DFE90B86424985228061 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib-strings.h */ = {isa = PBXBuildFile; fileRef = 90985069DCF046BEB552DDC7 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib-strings.h */; settings = {COMPILER_FLAGS = ""; }; };
+		28D14218D6134F0D971E0ECD /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFile.h */ = {isa = PBXBuildFile; fileRef = 0417F8C944ED4AE483FEA1F6 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2EF6AC5CA30E47139267FA22 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm.c */ = {isa = PBXBuildFile; fileRef = F0997BDEA0EA4A08AB7D4320 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm.c */; settings = {COMPILER_FLAGS = ""; }; };
+		35D9A9AF422F4FB18B6B837F /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/vct.c */ = {isa = PBXBuildFile; fileRef = 15242134E2CA4B1281D74E7D /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/vct.c */; settings = {COMPILER_FLAGS = ""; }; };
+		37226F30FFD9473D992DFAA0 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/headers.c */ = {isa = PBXBuildFile; fileRef = 3C48EA27FEED4156A09866A1 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/headers.c */; settings = {COMPILER_FLAGS = ""; }; };
+		3D97716EFC524683AE030365 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sound.c */ = {isa = PBXBuildFile; fileRef = 0DFA3D60F8794CBB9A48BBB4 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sound.c */; settings = {COMPILER_FLAGS = ""; }; };
+		51F4432628F24E02804460AF /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/vct.h */ = {isa = PBXBuildFile; fileRef = 28ECC623DC6246A98718AC93 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/vct.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6571826EA2DC409893FE3884 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm.h */ = {isa = PBXBuildFile; fileRef = 19EF8A73CAD64C358C7FD32D /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm.h */; settings = {COMPILER_FLAGS = ""; }; };
+		69FB152280284F23ABEA4D09 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/mus-config.h */ = {isa = PBXBuildFile; fileRef = E97C5C10C64B4B6C81A65696 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/mus-config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6FA003287B3C4868BF8ADA39 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm2xen.c */ = {isa = PBXBuildFile; fileRef = 512A1BA773BD440F90560300 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm2xen.c */; settings = {COMPILER_FLAGS = ""; }; };
+		743763F92EA14028A4EC8FF5 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/MUSI8903Exec/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = ADF80E2CD6DE4D0681A534ED /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/MUSI8903Exec/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		7CB807F9E1AD4C6E838C0388 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm-strings.h */ = {isa = PBXBuildFile; fileRef = B936DDB02CD346C2A6F079D6 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm-strings.h */; settings = {COMPILER_FLAGS = ""; }; };
+		81C99C2AB35C427A88371BCD /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/xen.h */ = {isa = PBXBuildFile; fileRef = C4356A67351144FB80E102E4 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/xen.h */; settings = {COMPILER_FLAGS = ""; }; };
+		824991376D3142CD9981E9F0 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm2xen.h */ = {isa = PBXBuildFile; fileRef = 3CD933AB7D43410F9450D138 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm2xen.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8BB1EB9225924286A6983C9E /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc/AudioFileIf.h */ = {isa = PBXBuildFile; fileRef = 33AACF02F73A47F6AE6C4B79 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc/AudioFileIf.h */; settings = {COMPILER_FLAGS = ""; }; };
+		98B0170950744C7D82D90E0E /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/MUSI8903Exec/MUSI8903Exec.cpp */ = {isa = PBXBuildFile; fileRef = FE0A5279B0B44AB2AD9BC7E7 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/MUSI8903Exec/MUSI8903Exec.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9BA8E8EB9071481EACB1A83E /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7E3335C664774AB6824760AD /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		B49F5512C6304DB2A47AC1BE /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib.h */ = {isa = PBXBuildFile; fileRef = A972E45DB23F41CFACA5D843 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B54F9A6477C547ECA92880AF /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/s7.c */ = {isa = PBXBuildFile; fileRef = 98AC5932F2D44288B5955CE1 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/s7.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C20FDF72CB814A1BB86C13C3 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc/Util.h */ = {isa = PBXBuildFile; fileRef = DB980A2DFB4F4F49AD53436F /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc/Util.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C55B9257F7864D369E395E24 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/audio.c */ = {isa = PBXBuildFile; fileRef = AA7BBEB5F1A54137B9E49B78 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/audio.c */; settings = {COMPILER_FLAGS = ""; }; };
+		CF518C37FA744270A142C9EC /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib2xen.c */ = {isa = PBXBuildFile; fileRef = 62C7EFDFF7F54D32B3155740 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib2xen.c */; settings = {COMPILER_FLAGS = ""; }; };
+		D3D2D75D25644239867FFFAA /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/s7.h */ = {isa = PBXBuildFile; fileRef = C6B6EE024EA4470983A4D8E7 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/s7.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D72B66F3A2BA4D36AC4BA6BE /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/io.c */ = {isa = PBXBuildFile; fileRef = E652D0116EB941CBBCD9505C /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/io.c */; settings = {COMPILER_FLAGS = ""; }; };
+		E10664702FE64BE39B153811 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFileIf.cpp */ = {isa = PBXBuildFile; fileRef = 87FD27BF3BEE4830A50510C4 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFileIf.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E7E2BDCBFA3A45DEADED24EC /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFile.cpp */ = {isa = PBXBuildFile; fileRef = D450DC8E093841339E01B749 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EA94876D2E70494CBAE05BA7 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/unix-config.h */ = {isa = PBXBuildFile; fileRef = 72E8DA67893245DD874C06A9 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/unix-config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EAA1263FF0C24ABB9D26933E /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib2xen.h */ = {isa = PBXBuildFile; fileRef = 00BB84D1B6B245F9A4B6FE0F /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib2xen.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EE0CF7D6B05B4B91B957966E /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/_sndlib.h */ = {isa = PBXBuildFile; fileRef = A0F6094334BB4E4781BAE220 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/_sndlib.h */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		07BC966A308B4C12B8D24CF8 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		24F49035DE614A16A4E940AE /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		7A213490386B4BA79A628BC2 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E121A1D8564440FDA5670969 = {
+			isa = PBXBuildStyle;
+		};
+		E35C265E1E0A4B52B3D07436 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0CE98B6EB2264F52AE725253 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE2BFF4AB194E128DABB135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB0F7C32847412483C016DE;
+			remoteInfo = ZERO_CHECK;
+		};
+		139599CB23C3455DB89667B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE2BFF4AB194E128DABB135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB0F7C32847412483C016DE;
+			remoteInfo = ZERO_CHECK;
+		};
+		40F9DAAD8ED94920B8AC85C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE2BFF4AB194E128DABB135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0996D16AB8749699F5304DF;
+			remoteInfo = sndlib;
+		};
+		547B836D09F24866846C360F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE2BFF4AB194E128DABB135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29EE12701CCE4450AAFFA711;
+			remoteInfo = MUSI8903Exec;
+		};
+		55247ACE84F04C419E87CA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE2BFF4AB194E128DABB135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD74477D7B36451F9F32ADE3;
+			remoteInfo = AudioFileIO;
+		};
+		7379DA31179A4462B6FD5821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE2BFF4AB194E128DABB135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0996D16AB8749699F5304DF;
+			remoteInfo = sndlib;
+		};
+		957C3753E7984893A8E31574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE2BFF4AB194E128DABB135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD74477D7B36451F9F32ADE3;
+			remoteInfo = AudioFileIO;
+		};
+		9D888C461C4F41AD83DA2BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE2BFF4AB194E128DABB135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB0F7C32847412483C016DE;
+			remoteInfo = ZERO_CHECK;
+		};
+		DF722F9E519A41F3A5E24B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE2BFF4AB194E128DABB135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB0F7C32847412483C016DE;
+			remoteInfo = ZERO_CHECK;
+		};
+		F5B44AC7540A4C2F9A5D56A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE2BFF4AB194E128DABB135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0996D16AB8749699F5304DF;
+			remoteInfo = sndlib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BB84D1B6B245F9A4B6FE0F /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib2xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sndlib2xen.h; path = 3rdparty/sndlib/sndlib2xen.h; sourceTree = SOURCE_ROOT; };
+		0417F8C944ED4AE483FEA1F6 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFile.h; path = src/AudioFileIO/AudioFile.h; sourceTree = SOURCE_ROOT; };
+		0DFA3D60F8794CBB9A48BBB4 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sound.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sound.c; path = 3rdparty/sndlib/sound.c; sourceTree = SOURCE_ROOT; };
+		15242134E2CA4B1281D74E7D /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/vct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vct.c; path = 3rdparty/sndlib/vct.c; sourceTree = SOURCE_ROOT; };
+		19EF8A73CAD64C358C7FD32D /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clm.h; path = 3rdparty/sndlib/clm.h; sourceTree = SOURCE_ROOT; };
+		28ECC623DC6246A98718AC93 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/vct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vct.h; path = 3rdparty/sndlib/vct.h; sourceTree = SOURCE_ROOT; };
+		30475031C5F54EFE9BE51F00 /* AudioFileIO */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAudioFileIO.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AACF02F73A47F6AE6C4B79 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc/AudioFileIf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AudioFileIf.h; path = src/inc/AudioFileIf.h; sourceTree = SOURCE_ROOT; };
+		3C48EA27FEED4156A09866A1 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/headers.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = headers.c; path = 3rdparty/sndlib/headers.c; sourceTree = SOURCE_ROOT; };
+		3CD933AB7D43410F9450D138 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm2xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clm2xen.h; path = 3rdparty/sndlib/clm2xen.h; sourceTree = SOURCE_ROOT; };
+		512A1BA773BD440F90560300 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm2xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clm2xen.c; path = 3rdparty/sndlib/clm2xen.c; sourceTree = SOURCE_ROOT; };
+		58440A84CF8346F1B6AD58B6 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xen.c; path = 3rdparty/sndlib/xen.c; sourceTree = SOURCE_ROOT; };
+		62C7EFDFF7F54D32B3155740 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib2xen.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sndlib2xen.c; path = 3rdparty/sndlib/sndlib2xen.c; sourceTree = SOURCE_ROOT; };
+		72E8DA67893245DD874C06A9 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/unix-config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "unix-config.h"; path = "3rdparty/sndlib/unix-config.h"; sourceTree = SOURCE_ROOT; };
+		780481CEE8644A448F192DD0 /* sndlib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsndlib.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3335C664774AB6824760AD /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/AudioFileIO/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		87FD27BF3BEE4830A50510C4 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFileIf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AudioFileIf.cpp; path = src/AudioFileIO/AudioFileIf.cpp; sourceTree = SOURCE_ROOT; };
+		8DBF4489B8CC465FB4698BCD /* MUSI8903Exec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MUSI8903Exec; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		90985069DCF046BEB552DDC7 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib-strings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "sndlib-strings.h"; path = "3rdparty/sndlib/sndlib-strings.h"; sourceTree = SOURCE_ROOT; };
+		98AC5932F2D44288B5955CE1 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/s7.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = s7.c; path = 3rdparty/sndlib/s7.c; sourceTree = SOURCE_ROOT; };
+		9E4047983BB84AAE8014685D /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc/Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Vector.h; path = src/inc/Vector.h; sourceTree = SOURCE_ROOT; };
+		9F7F716C85B54184B776647B /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A0F6094334BB4E4781BAE220 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/_sndlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = _sndlib.h; path = 3rdparty/sndlib/_sndlib.h; sourceTree = SOURCE_ROOT; };
+		A972E45DB23F41CFACA5D843 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sndlib.h; path = 3rdparty/sndlib/sndlib.h; sourceTree = SOURCE_ROOT; };
+		AA7BBEB5F1A54137B9E49B78 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = audio.c; path = 3rdparty/sndlib/audio.c; sourceTree = SOURCE_ROOT; };
+		ADF80E2CD6DE4D0681A534ED /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/MUSI8903Exec/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/MUSI8903Exec/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B128A666828C44939A8CCB61 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = 3rdparty/sndlib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B936DDB02CD346C2A6F079D6 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm-strings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "clm-strings.h"; path = "3rdparty/sndlib/clm-strings.h"; sourceTree = SOURCE_ROOT; };
+		C4356A67351144FB80E102E4 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/xen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xen.h; path = 3rdparty/sndlib/xen.h; sourceTree = SOURCE_ROOT; };
+		C6B6EE024EA4470983A4D8E7 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/s7.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = s7.h; path = 3rdparty/sndlib/s7.h; sourceTree = SOURCE_ROOT; };
+		D450DC8E093841339E01B749 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AudioFile.cpp; path = src/AudioFileIO/AudioFile.cpp; sourceTree = SOURCE_ROOT; };
+		DB980A2DFB4F4F49AD53436F /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc/Util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Util.h; path = src/inc/Util.h; sourceTree = SOURCE_ROOT; };
+		E652D0116EB941CBBCD9505C /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/io.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io.c; path = 3rdparty/sndlib/io.c; sourceTree = SOURCE_ROOT; };
+		E97C5C10C64B4B6C81A65696 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/mus-config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "mus-config.h"; path = "3rdparty/sndlib/mus-config.h"; sourceTree = SOURCE_ROOT; };
+		F0997BDEA0EA4A08AB7D4320 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clm.c; path = 3rdparty/sndlib/clm.c; sourceTree = SOURCE_ROOT; };
+		FE0A5279B0B44AB2AD9BC7E7 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/MUSI8903Exec/MUSI8903Exec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MUSI8903Exec.cpp; path = src/MUSI8903Exec/MUSI8903Exec.cpp; sourceTree = SOURCE_ROOT; };
+		FE0F3281DAF94AB0A1E619D6 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		24BC31CC3EB14252A46129E6 = {
+			isa = PBXGroup;
+			children = (
+				6C47E5A8494949D08F872F0D /* Sources */,
+				70BD0B63197D4BC0952A45C8 /* Resources */,
+				B1DE585C737840BCBF56855A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31D1E38907E9496A80CECDDC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3FB0DF69F3C14D6FB0DB8067 /* sndlib */ = {
+			isa = PBXGroup;
+			children = (
+				6B8CFC3054FF4D4991AF34DD /* Source Files */,
+				B2A3E8712FEA4CB59D346F17 /* Header Files */,
+				B128A666828C44939A8CCB61 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/CMakeLists.txt */,
+			);
+			name = sndlib;
+			sourceTree = "<group>";
+		};
+		3FBA65FF79144AB38F2EEEF2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5233248A002744DEA9B9D3E4 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				3FBA65FF79144AB38F2EEEF2 /* CMake Rules */,
+				9F7F716C85B54184B776647B /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		5D85A37817E144DD862BBE34 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				31D1E38907E9496A80CECDDC /* CMake Rules */,
+				FE0F3281DAF94AB0A1E619D6 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6482491016694DFA9D386B62 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D450DC8E093841339E01B749 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFile.cpp */,
+				87FD27BF3BEE4830A50510C4 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFileIf.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6B8CFC3054FF4D4991AF34DD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7BBEB5F1A54137B9E49B78 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/audio.c */,
+				F0997BDEA0EA4A08AB7D4320 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm.c */,
+				512A1BA773BD440F90560300 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm2xen.c */,
+				3C48EA27FEED4156A09866A1 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/headers.c */,
+				E652D0116EB941CBBCD9505C /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/io.c */,
+				98AC5932F2D44288B5955CE1 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/s7.c */,
+				62C7EFDFF7F54D32B3155740 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib2xen.c */,
+				0DFA3D60F8794CBB9A48BBB4 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sound.c */,
+				15242134E2CA4B1281D74E7D /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/vct.c */,
+				58440A84CF8346F1B6AD58B6 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/xen.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6C47E5A8494949D08F872F0D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5D85A37817E144DD862BBE34 /* ALL_BUILD */,
+				5233248A002744DEA9B9D3E4 /* ZERO_CHECK */,
+				D4C2B1D64FB546AB9509E5CE /* MUSI8903Exec */,
+				75AF14A35F3C4B22B532B17E /* AudioFileIO */,
+				3FB0DF69F3C14D6FB0DB8067 /* sndlib */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		70BD0B63197D4BC0952A45C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		75AF14A35F3C4B22B532B17E /* AudioFileIO */ = {
+			isa = PBXGroup;
+			children = (
+				6482491016694DFA9D386B62 /* Source Files */,
+				EBC47193BF5C456B9977B110 /* Header Files */,
+				7E3335C664774AB6824760AD /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/CMakeLists.txt */,
+			);
+			name = AudioFileIO;
+			sourceTree = "<group>";
+		};
+		AA6553B88DD646E2AE3FD9E8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE0A5279B0B44AB2AD9BC7E7 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/MUSI8903Exec/MUSI8903Exec.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B1DE585C737840BCBF56855A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DBF4489B8CC465FB4698BCD /* MUSI8903Exec */,
+				30475031C5F54EFE9BE51F00 /* AudioFileIO */,
+				780481CEE8644A448F192DD0 /* sndlib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2A3E8712FEA4CB59D346F17 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0F6094334BB4E4781BAE220 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/_sndlib.h */,
+				B936DDB02CD346C2A6F079D6 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm-strings.h */,
+				19EF8A73CAD64C358C7FD32D /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm.h */,
+				3CD933AB7D43410F9450D138 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm2xen.h */,
+				E97C5C10C64B4B6C81A65696 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/mus-config.h */,
+				C6B6EE024EA4470983A4D8E7 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/s7.h */,
+				90985069DCF046BEB552DDC7 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib-strings.h */,
+				A972E45DB23F41CFACA5D843 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib.h */,
+				00BB84D1B6B245F9A4B6FE0F /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib2xen.h */,
+				72E8DA67893245DD874C06A9 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/unix-config.h */,
+				28ECC623DC6246A98718AC93 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/vct.h */,
+				C4356A67351144FB80E102E4 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/xen.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BC17C8C2F1414C7C948D6C6C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				33AACF02F73A47F6AE6C4B79 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc/AudioFileIf.h */,
+				DB980A2DFB4F4F49AD53436F /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc/Util.h */,
+				9E4047983BB84AAE8014685D /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc/Vector.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D4C2B1D64FB546AB9509E5CE /* MUSI8903Exec */ = {
+			isa = PBXGroup;
+			children = (
+				AA6553B88DD646E2AE3FD9E8 /* Source Files */,
+				BC17C8C2F1414C7C948D6C6C /* Header Files */,
+				ADF80E2CD6DE4D0681A534ED /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/MUSI8903Exec/CMakeLists.txt */,
+			);
+			name = MUSI8903Exec;
+			sourceTree = "<group>";
+		};
+		EBC47193BF5C456B9977B110 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0417F8C944ED4AE483FEA1F6 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFile.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29EE12701CCE4450AAFFA711 /* MUSI8903Exec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0108220AC56C472298D20077 /* Build configuration list for PBXNativeTarget "MUSI8903Exec" */;
+			buildPhases = (
+				4AD88C696DDC436FA13F8C73 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5897CCBAB997477BBEF27D81 /* PBXTargetDependency */,
+				3170077CBFA943ADACB2415B /* PBXTargetDependency */,
+				310C144847ED49E2B71BF587 /* PBXTargetDependency */,
+			);
+			name = MUSI8903Exec;
+			productName = MUSI8903Exec;
+			productReference = 8DBF4489B8CC465FB4698BCD /* MUSI8903Exec */;
+			productType = "com.apple.product-type.tool";
+		};
+		A0996D16AB8749699F5304DF /* sndlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77FB4FDD5C074483B68EB98E /* Build configuration list for PBXNativeTarget "sndlib" */;
+			buildPhases = (
+				7C52A043D2A44E71874DDC6D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EF90E9158324E50A3D27A98 /* PBXTargetDependency */,
+			);
+			name = sndlib;
+			productName = sndlib;
+			productReference = 780481CEE8644A448F192DD0 /* sndlib */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BD74477D7B36451F9F32ADE3 /* AudioFileIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A019E57EE3AD4CA385746597 /* Build configuration list for PBXNativeTarget "AudioFileIO" */;
+			buildPhases = (
+				BD9C37D0F90E4F2183667B41 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0AB56D1502C4ED08BCB7AAB /* PBXTargetDependency */,
+				D7C0E82F209E44C4A331DC1A /* PBXTargetDependency */,
+			);
+			name = AudioFileIO;
+			productName = AudioFileIO;
+			productReference = 30475031C5F54EFE9BE51F00 /* AudioFileIO */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FE2BFF4AB194E128DABB135 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = B2C16B82C66F4F15B815B3F8 /* Build configuration list for PBXProject "MUSI8903" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E35C265E1E0A4B52B3D07436 /* Debug */,
+				24F49035DE614A16A4E940AE /* Release */,
+				7A213490386B4BA79A628BC2 /* MinSizeRel */,
+				07BC966A308B4C12B8D24CF8 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 24BC31CC3EB14252A46129E6;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				F83D26AEB03E456B931A386F /* ALL_BUILD */,
+				5CB0F7C32847412483C016DE /* ZERO_CHECK */,
+				29EE12701CCE4450AAFFA711 /* MUSI8903Exec */,
+				BD74477D7B36451F9F32ADE3 /* AudioFileIO */,
+				A0996D16AB8749699F5304DF /* sndlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		221EDCC25E634065A134DAEF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio\\ Software/MUSIC-8903-2016/bld -f /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio\\ Software/MUSIC-8903-2016/bld/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		302F80C3E167453DA1F5B0F3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4B4B65B902614DF89F01C782 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		76E35D874ADF4EE1B6B9E552 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio\\ Software/MUSIC-8903-2016/bld -f /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio\\ Software/MUSIC-8903-2016/bld/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AD88C696DDC436FA13F8C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B0170950744C7D82D90E0E /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/MUSI8903Exec/MUSI8903Exec.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C52A043D2A44E71874DDC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55B9257F7864D369E395E24 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/audio.c */,
+				2EF6AC5CA30E47139267FA22 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm.c */,
+				6FA003287B3C4868BF8ADA39 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/clm2xen.c */,
+				37226F30FFD9473D992DFAA0 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/headers.c */,
+				D72B66F3A2BA4D36AC4BA6BE /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/io.c */,
+				B54F9A6477C547ECA92880AF /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/s7.c */,
+				CF518C37FA744270A142C9EC /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sndlib2xen.c */,
+				3D97716EFC524683AE030365 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/sound.c */,
+				35D9A9AF422F4FB18B6B837F /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/vct.c */,
+				0232B64F87E1439A9C13DCC6 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib/xen.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9C37D0F90E4F2183667B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E2BDCBFA3A45DEADED24EC /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFile.cpp */,
+				E10664702FE64BE39B153811 /* /Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/AudioFileIO/AudioFileIf.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		310C144847ED49E2B71BF587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CB0F7C32847412483C016DE /* ZERO_CHECK */;
+			targetProxy = DF722F9E519A41F3A5E24B37 /* PBXContainerItemProxy */;
+		};
+		3170077CBFA943ADACB2415B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0996D16AB8749699F5304DF /* sndlib */;
+			targetProxy = 40F9DAAD8ED94920B8AC85C3 /* PBXContainerItemProxy */;
+		};
+		5897CCBAB997477BBEF27D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD74477D7B36451F9F32ADE3 /* AudioFileIO */;
+			targetProxy = 55247ACE84F04C419E87CA18 /* PBXContainerItemProxy */;
+		};
+		7C5883D1574F495497D91BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29EE12701CCE4450AAFFA711 /* MUSI8903Exec */;
+			targetProxy = 547B836D09F24866846C360F /* PBXContainerItemProxy */;
+		};
+		8EF90E9158324E50A3D27A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CB0F7C32847412483C016DE /* ZERO_CHECK */;
+			targetProxy = 139599CB23C3455DB89667B5 /* PBXContainerItemProxy */;
+		};
+		A5342D4633504A6FB055EAD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CB0F7C32847412483C016DE /* ZERO_CHECK */;
+			targetProxy = 0CE98B6EB2264F52AE725253 /* PBXContainerItemProxy */;
+		};
+		C0AB56D1502C4ED08BCB7AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0996D16AB8749699F5304DF /* sndlib */;
+			targetProxy = F5B44AC7540A4C2F9A5D56A9 /* PBXContainerItemProxy */;
+		};
+		C1F9FE94E73D41EDB7BF1ED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD74477D7B36451F9F32ADE3 /* AudioFileIO */;
+			targetProxy = 957C3753E7984893A8E31574 /* PBXContainerItemProxy */;
+		};
+		D7C0E82F209E44C4A331DC1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CB0F7C32847412483C016DE /* ZERO_CHECK */;
+			targetProxy = 9D888C461C4F41AD83DA2BB1 /* PBXContainerItemProxy */;
+		};
+		DB486E1A29634737802B1126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0996D16AB8749699F5304DF /* sndlib */;
+			targetProxy = 7379DA31179A4462B6FD5821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		198C07EA19034B4BAA5C5507 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		3E40A7C06CA646638CD58508 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		403574642564436394514FC6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/build";
+			};
+			name = MinSizeRel;
+		};
+		4BA46229024B42E080C1127B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		4BE25CA8806941BF84AE4C7F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		5ADDE095D1F34D429721D9C0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		5D79EAD25FAF46C88C12AFDC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		60AC66A3738B4556A9F32F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		6361F472602B41F48D72467D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bin/release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/inc\"", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/release/libAudioFileIO.a\" \"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/release/libsndlib.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MUSI8903Exec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/MUSI8903Exec";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		6756390C6A254EA58C56E55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		7B6994DAC32F485EACF2C0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		96FB7F00A6834CBBB6ED3A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/build";
+			};
+			name = Release;
+		};
+		A19D930595304A9B810A03E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		A27891756BE54AD697164E44 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/relwithdebinfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		A420339FCED8414BA7C5F2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		A6BE4779354E42159B6A1743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bin/debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/inc\"", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/debug/libAudioFileIO.a\" \"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/debug/libsndlib.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MUSI8903Exec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/MUSI8903Exec";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		B4A9B2F78C214E7D8FB6C126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = AudioFileIO;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/AudioFileIO";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		B6FC25CAF53344FB892C0852 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/build";
+			};
+			name = RelWithDebInfo;
+		};
+		C71612E780894EB29C2734F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		C772E6F3117B481297EFD3DF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/3rdparty/sndlib\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -w  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sndlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/AudioFileIO/sndlib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		D20097CC77114A4F978B692B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/inc\"", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/MinSizeRel/libAudioFileIO.a\" \"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/MinSizeRel/libsndlib.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MUSI8903Exec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/MUSI8903Exec";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		D761F657049A41E1A20B4BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/build";
+			};
+			name = Debug;
+		};
+		E9AAD8CDE2F746A6880396DC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		FAD38763699240968AC6C465 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bin/relwithdebinfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/src/inc\"", "\"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/inc\"", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/relwithdebinfo/libAudioFileIO.a\" \"/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/lib/relwithdebinfo/libsndlib.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MUSI8903Exec;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/chrislatina/Documents/GeorgiaTech/S16/MUSI8903-Audio Software/MUSIC-8903-2016/bld/MUSI8903Exec";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0108220AC56C472298D20077 /* Build configuration list for PBXNativeTarget "MUSI8903Exec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BE4779354E42159B6A1743 /* Debug */,
+				6361F472602B41F48D72467D /* Release */,
+				D20097CC77114A4F978B692B /* MinSizeRel */,
+				FAD38763699240968AC6C465 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		77FB4FDD5C074483B68EB98E /* Build configuration list for PBXNativeTarget "sndlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A420339FCED8414BA7C5F2C7 /* Debug */,
+				A19D930595304A9B810A03E7 /* Release */,
+				C772E6F3117B481297EFD3DF /* MinSizeRel */,
+				198C07EA19034B4BAA5C5507 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A019E57EE3AD4CA385746597 /* Build configuration list for PBXNativeTarget "AudioFileIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6994DAC32F485EACF2C0B8 /* Debug */,
+				B4A9B2F78C214E7D8FB6C126 /* Release */,
+				5ADDE095D1F34D429721D9C0 /* MinSizeRel */,
+				A27891756BE54AD697164E44 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B2C16B82C66F4F15B815B3F8 /* Build configuration list for PBXProject "MUSI8903" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D761F657049A41E1A20B4BB8 /* Debug */,
+				96FB7F00A6834CBBB6ED3A94 /* Release */,
+				403574642564436394514FC6 /* MinSizeRel */,
+				B6FC25CAF53344FB892C0852 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE9DFACAF3E44CF89DD4E5CA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA46229024B42E080C1127B /* Debug */,
+				6756390C6A254EA58C56E55E /* Release */,
+				3E40A7C06CA646638CD58508 /* MinSizeRel */,
+				E9AAD8CDE2F746A6880396DC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DEA7A336BCDD40DA8303BF0A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71612E780894EB29C2734F9 /* Debug */,
+				60AC66A3738B4556A9F32F1B /* Release */,
+				5D79EAD25FAF46C88C12AFDC /* MinSizeRel */,
+				4BE25CA8806941BF84AE4C7F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FE2BFF4AB194E128DABB135 /* Project object */;
+}
